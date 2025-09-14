@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_15581_servicenow.dispatch_management" name="x_15581_servicenow.dispatch_management">2dc5d22cc38032103b6237cc0501315d</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-14 17:12:29</sys_created_on>
+        <sys_id>e1c5d22cc38032103b6237cc0501315f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2dc5d22cc38032103b6237cc0501315d</sys_name>
+        <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+        <sys_update_name>sys_embedded_help_role_e1c5d22cc38032103b6237cc0501315f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-14 17:12:29</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

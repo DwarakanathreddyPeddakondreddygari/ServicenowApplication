@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="03279e20c38432103b6237cc050131d7" extends="task" label="Device_Request" max_length="40" name="x_15581_servicenow_device_request" type="collection"/>
+</database>
