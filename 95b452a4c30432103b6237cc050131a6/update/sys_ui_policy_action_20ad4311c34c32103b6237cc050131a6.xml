@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>description</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 05:12:23</sys_created_on>
+        <sys_id>20ad4311c34c32103b6237cc050131a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+        <sys_update_name>sys_ui_policy_action_20ad4311c34c32103b6237cc050131a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 05:12:23</sys_updated_on>
+        <table>x_15581_servicenow_device_request</table>
+        <ui_policy display_value="Mandatory Business Justification Field">001b435dc30c32103b6237cc050131b1</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=20ad4311c34c32103b6237cc050131a6"/>
+</record_update>

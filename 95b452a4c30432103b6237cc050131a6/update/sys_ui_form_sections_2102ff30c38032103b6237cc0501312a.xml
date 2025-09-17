@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="2102ff30c38032103b6237cc0501312a" sys_domain="global" table="x_15581_servicenow_device_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-15 18:34:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6502ff30c38032103b6237cc0501312d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_15581_servicenow_device_request" name="x_15581_servicenow_device_request" sys_domain="global" view="Default view">2102ff30c38032103b6237cc0501312a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_15581_servicenow_device_request" sys_domain="global" view="Default view">2960a3f8c30032103b6237cc05013144</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-15 18:34:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-16 17:14:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f49e8d1c34032103b6237cc05013141</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_15581_servicenow_device_request" name="x_15581_servicenow_device_request" sys_domain="global" view="Default view">2102ff30c38032103b6237cc0501312a</sys_ui_form>
+            <sys_ui_section caption="Device Details" display_value="Device Details" name="x_15581_servicenow_device_request" sys_domain="global" view="Default view">b349e8d1c34032103b6237cc05013107</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-16 17:14:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-16 17:14:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3749e8d1c34032103b6237cc05013145</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_15581_servicenow_device_request" name="x_15581_servicenow_device_request" sys_domain="global" view="Default view">2102ff30c38032103b6237cc0501312a</sys_ui_form>
+            <sys_ui_section caption="Delivery Details" display_value="Delivery Details" name="x_15581_servicenow_device_request" sys_domain="global" view="Default view">3b49e8d1c34032103b6237cc0501310a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-16 17:14:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_15581_servicenow_device_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-15 18:33:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2102ff30c38032103b6237cc0501312a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_15581_servicenow_device_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2102ff30c38032103b6237cc0501312a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-15 18:33:59</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
