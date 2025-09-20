@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_dictionary">
+    <ais_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <auto_refresh>24</auto_refresh>
+        <blocked_field/>
+        <case_sensitive>false</case_sensitive>
+        <data_source>x_15581_servicenow_device_request</data_source>
+        <derived>true</derived>
+        <field/>
+        <label>servicenowapllication Search Profile Default Spell Check Dictionary</label>
+        <last_derived/>
+        <locale>en</locale>
+        <name>x_15581_servicenow_servicenowapllication_search_profile_default_spell_check_dictionary</name>
+        <publish_id/>
+        <punctuation_sensitive>false</punctuation_sensitive>
+        <state>NEW</state>
+        <sys_class_name>ais_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-20 07:16:20</sys_created_on>
+        <sys_id>afd60b5ac38072103b6237cc0501315a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_15581_servicenow_servicenowapllication_search_profile_default_spell_check_dictionary</sys_name>
+        <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+        <sys_update_name>ais_dictionary_afd60b5ac38072103b6237cc0501315a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-20 07:16:20</sys_updated_on>
+        <type>SPELLCHECK</type>
+    </ais_dictionary>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <search_context_config display_value="ServicenowApllication - Workspace Search">9e96cb96de8072100e3615bbb4afba36</search_context_config>
+        <source display_value="ServicenowApllication - x_15581_servicenow_ai_devi">ff964f96c38072103b6237cc05013131</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-20 07:16:17</sys_created_on>
+        <sys_id>4bd6875ac38072103b6237cc050131d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_4bd6875ac38072103b6237cc050131d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-20 07:16:17</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

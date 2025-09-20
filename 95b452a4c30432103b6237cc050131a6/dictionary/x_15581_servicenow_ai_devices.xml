@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="dfeedb38c30032103b6237cc0501310d" extends="cmdb_ci" label="AI_Devices" max_length="40" name="x_15581_servicenow_ai_devices" type="collection">
+    <element db_object_id="dfeedb38c30032103b6237cc0501310d" extends="cmdb_ci" label="AI_Devices" max_length="40" name="x_15581_servicenow_ai_devices" text_index="true" type="collection">
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="New Price" max_length="20" name="u_price_2" type="price"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Device Category" max_length="40" name="u_choice_1" type="string">
             <choice>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_ribbon_config">
+    <sys_ux_ribbon_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>ServicenowApllication Ribbon Config</description>
+        <name>ServicenowApllication Ribbon Config</name>
+        <sys_class_name>sys_ux_ribbon_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-20 07:15:11</sys_created_on>
+        <sys_id>de96cb96fb80721012c7f319381f1a2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ServicenowApllication Ribbon Config</sys_name>
+        <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+        <sys_update_name>sys_ux_ribbon_config_de96cb96fb80721012c7f319381f1a2f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-20 07:15:11</sys_updated_on>
+    </sys_ux_ribbon_config>
+</record_update>
