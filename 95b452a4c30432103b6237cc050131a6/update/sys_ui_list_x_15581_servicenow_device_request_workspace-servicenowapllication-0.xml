@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_15581_servicenow_device_request" version="2" view="workspace-servicenowapllication-0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_15581_servicenow_device_request" element="NULL" name="x_15581_servicenow_device_request" parent="NULL" relationship="NULL" sys_domain="global" view="9296cb9613807210f9949d7465b00636">1ce64b5ac38072103b6237cc05013192</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_id>d4e64b5ac38072103b6237cc05013193</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_reference_2</element>
+            <list_id display_value="x_15581_servicenow_device_request" element="NULL" name="x_15581_servicenow_device_request" parent="NULL" relationship="NULL" sys_domain="global" view="9296cb9613807210f9949d7465b00636">1ce64b5ac38072103b6237cc05013192</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_id>58e64b5ac38072103b6237cc05013193</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_15581_servicenow_device_request" element="NULL" name="x_15581_servicenow_device_request" parent="NULL" relationship="NULL" sys_domain="global" view="9296cb9613807210f9949d7465b00636">1ce64b5ac38072103b6237cc05013192</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_id>d8e64b5ac38072103b6237cc05013193</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_description</element>
+            <list_id display_value="x_15581_servicenow_device_request" element="NULL" name="x_15581_servicenow_device_request" parent="NULL" relationship="NULL" sys_domain="global" view="9296cb9613807210f9949d7465b00636">1ce64b5ac38072103b6237cc05013192</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_id>5ce64b5ac38072103b6237cc05013193</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_integer_4</element>
+            <list_id display_value="x_15581_servicenow_device_request" element="NULL" name="x_15581_servicenow_device_request" parent="NULL" relationship="NULL" sys_domain="global" view="9296cb9613807210f9949d7465b00636">1ce64b5ac38072103b6237cc05013192</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_id>dce64b5ac38072103b6237cc05013193</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_price_4</element>
+            <list_id display_value="x_15581_servicenow_device_request" element="NULL" name="x_15581_servicenow_device_request" parent="NULL" relationship="NULL" sys_domain="global" view="9296cb9613807210f9949d7465b00636">1ce64b5ac38072103b6237cc05013192</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_id>50e64b5ac38072103b6237cc05013194</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_string_2</element>
+            <list_id display_value="x_15581_servicenow_device_request" element="NULL" name="x_15581_servicenow_device_request" parent="NULL" relationship="NULL" sys_domain="global" view="9296cb9613807210f9949d7465b00636">1ce64b5ac38072103b6237cc05013192</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_id>d0e64b5ac38072103b6237cc05013194</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>priority</element>
+            <list_id display_value="x_15581_servicenow_device_request" element="NULL" name="x_15581_servicenow_device_request" parent="NULL" relationship="NULL" sys_domain="global" view="9296cb9613807210f9949d7465b00636">1ce64b5ac38072103b6237cc05013192</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_id>54e64b5ac38072103b6237cc05013194</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_15581_servicenow_device_request" element="NULL" name="x_15581_servicenow_device_request" parent="NULL" relationship="NULL" sys_domain="global" view="9296cb9613807210f9949d7465b00636">1ce64b5ac38072103b6237cc05013192</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_id>d4e64b5ac38072103b6237cc05013194</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_15581_servicenow_device_request" element="NULL" name="x_15581_servicenow_device_request" parent="NULL" relationship="NULL" sys_domain="global" view="9296cb9613807210f9949d7465b00636">1ce64b5ac38072103b6237cc05013192</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_id>58e64b5ac38072103b6237cc05013194</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_15581_servicenow_device_request" element="NULL" name="x_15581_servicenow_device_request" parent="NULL" relationship="NULL" sys_domain="global" view="9296cb9613807210f9949d7465b00636">1ce64b5ac38072103b6237cc05013192</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_id>d8e64b5ac38072103b6237cc05013194</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_class_name</element>
+            <list_id display_value="x_15581_servicenow_device_request" element="NULL" name="x_15581_servicenow_device_request" parent="NULL" relationship="NULL" sys_domain="global" view="9296cb9613807210f9949d7465b00636">1ce64b5ac38072103b6237cc05013192</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_id>5ce64b5ac38072103b6237cc05013194</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_15581_servicenow_device_request</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ce64b5ac38072103b6237cc05013192</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_15581_servicenow_device_request</sys_name>
+            <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+            <sys_update_name>sys_ui_list_x_15581_servicenow_device_request_workspace-servicenowapllication-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace ServicenowApllication 0" name="workspace-servicenowapllication-0">9296cb9613807210f9949d7465b00636</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

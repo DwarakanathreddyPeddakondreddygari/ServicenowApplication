@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>company show</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.setReadOnly('company',true);
+   g_form.setReadOnly('company',false);
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 11:24:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81626ca5c3c072103b6237cc05013191</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>company show</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+        <sys_update_name>sys_script_client_81626ca5c3c072103b6237cc05013191</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 11:28:56</sys_updated_on>
+        <table>x_15581_servicenow_device_request</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</application>
+        <file_path/>
+        <instance_id>f105eb8b3be38214677f04e0b5e45a8d</instance_id>
+        <instance_name>dev279803</instance_name>
+        <name>sys_script_client_81626ca5c3c072103b6237cc05013191</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;company show&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.setReadOnly('company',true);
+   g_form.setReadOnly('company',false);
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-17 11:24:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;81626ca5c3c072103b6237cc05013191&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;company show&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ServicenowApllication" source="x_15581_servicenow"&gt;95b452a4c30432103b6237cc050131a6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ServicenowApllication"&gt;95b452a4c30432103b6237cc050131a6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_81626ca5c3c072103b6237cc05013191&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-17 11:28:56&lt;/sys_updated_on&gt;&lt;table&gt;x_15581_servicenow_device_request&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>527575853</payload_hash>
+        <record_name>company show</record_name>
+        <reverted_from/>
+        <source>554d1ae4c38432103b6237cc050131e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 11:28:56</sys_created_on>
+        <sys_id>2ee36829c3c072103b6237cc050131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199576f50a10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 11:28:56</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>22e368295fc07210f79b423661a7d8a9</update_guid>
+        <update_guid_history>22e368295fc07210f79b423661a7d8a9:527575853,76c26c65d9c0721005c69544a496162b:-929040835</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 11:39:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>161eed4a52e2452a834d54ab0dbbd9a4</sys_id>
+        <sys_metadata>81626ca5c3c072103b6237cc05013191</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>company show</sys_name>
+        <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+        <sys_parent display_value="Device_Request">03279e20c38432103b6237cc050131d7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+        <sys_scope_delete display_value="">cb5402abc9b946c883bdbf46bc6a1799</sys_scope_delete>
+        <sys_update_name>sys_script_client_81626ca5c3c072103b6237cc05013191</sys_update_name>
+        <sys_update_version display_value="sys_script_client_81626ca5c3c072103b6237cc05013191">2ee36829c3c072103b6237cc050131a9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 11:39:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

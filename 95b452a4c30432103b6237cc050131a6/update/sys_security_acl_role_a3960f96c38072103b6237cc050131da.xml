@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-20 07:15:14</sys_created_on>
+        <sys_id>a3960f96c38072103b6237cc050131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.15581.servicenowapllication.*.x_15581_servicenow.dispatch_management</sys_name>
+        <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+        <sys_security_acl display_value="x.15581.servicenowapllication.*">1a96cb9651807210d7a54d33f6456a36</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a3960f96c38072103b6237cc050131da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-20 07:15:14</sys_updated_on>
+        <sys_user_role display_value="x_15581_servicenow.dispatch_management" name="x_15581_servicenow.dispatch_management">2dc5d22cc38032103b6237cc0501315d</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

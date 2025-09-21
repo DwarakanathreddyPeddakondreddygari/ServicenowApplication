@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Price And Warranty" section_id="18e64b5ac38072103b6237cc0501315f" sys_domain="global" table="x_15581_servicenow_ai_devices" version="3" view="workspace-servicenowapllication-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_price_2</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_id>94e64b5ac38072103b6237cc05013187</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Price And Warranty" display_value="Price And Warranty" name="x_15581_servicenow_ai_devices" sys_domain="global" view="9296cb9613807210f9949d7465b00636">18e64b5ac38072103b6237cc0501315f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_id>90e64b5ac38072103b6237cc05013188</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Price And Warranty" display_value="Price And Warranty" name="x_15581_servicenow_ai_devices" sys_domain="global" view="9296cb9613807210f9949d7465b00636">18e64b5ac38072103b6237cc0501315f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>warranty_expiration</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_id>1ce64b5ac38072103b6237cc05013187</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Price And Warranty" display_value="Price And Warranty" name="x_15581_servicenow_ai_devices" sys_domain="global" view="9296cb9613807210f9949d7465b00636">18e64b5ac38072103b6237cc0501315f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Price And Warranty</caption>
+            <header>false</header>
+            <name>x_15581_servicenow_ai_devices</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-20 07:16:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18e64b5ac38072103b6237cc0501315f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_15581_servicenow_ai_devices</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+            <sys_update_name>sys_ui_section_18e64b5ac38072103b6237cc0501315f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-20 07:16:23</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace ServicenowApllication 0" name="workspace-servicenowapllication-0">9296cb9613807210f9949d7465b00636</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

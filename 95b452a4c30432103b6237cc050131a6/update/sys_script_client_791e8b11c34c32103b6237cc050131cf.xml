@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide Section</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   if(g_form.getValue('u_reference_1')==''){
+   g_form.setSectionDisplay('device_details',false);
+	g_form.setSectionDisplay('delivery_details',false);
+
+   }else{
+	g_form.getReference('u_reference_1', getDetails);
+	function getDetails(details) {
+            g_form.setValue('u_model', details.model_number);
+            g_form.setValue('u_string_2', details.short_description);
+            g_form.setValue('u_price_4', details.u_price_2);
+            g_form.setValue('u_glide_date_time_5', details.warranty_expiration);
+        }
+   }
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 05:17:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>791e8b11c34c32103b6237cc050131cf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Hide Section</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+        <sys_update_name>sys_script_client_791e8b11c34c32103b6237cc050131cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-18 17:33:17</sys_updated_on>
+        <table>x_15581_servicenow_device_request</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

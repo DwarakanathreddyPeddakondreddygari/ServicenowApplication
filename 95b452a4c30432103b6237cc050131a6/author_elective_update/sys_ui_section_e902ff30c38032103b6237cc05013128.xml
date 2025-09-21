@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="e902ff30c38032103b6237cc05013128" sys_domain="global" table="x_15581_servicenow_device_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-15 18:34:00</sys_created_on>
+            <sys_id>b902ff30c38032103b6237cc05013173</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_15581_servicenow_device_request" sys_domain="global" view="Default view">e902ff30c38032103b6237cc05013128</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-15 18:34:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_15581_servicenow_device_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-15 18:33:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e902ff30c38032103b6237cc05013128</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_15581_servicenow_device_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+            <sys_update_name>sys_ui_section_e902ff30c38032103b6237cc05013128</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-15 18:33:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</application>
+        <file_path/>
+        <instance_id>f105eb8b3be38214677f04e0b5e45a8d</instance_id>
+        <instance_name>dev279803</instance_name>
+        <name>sys_ui_section_e902ff30c38032103b6237cc05013128</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="e902ff30c38032103b6237cc05013128" sys_domain="global" table="x_15581_servicenow_device_request" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-15 18:34:00</sys_created_on><sys_id>b902ff30c38032103b6237cc05013173</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_15581_servicenow_device_request" sys_domain="global" view="Default view">e902ff30c38032103b6237cc05013128</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-15 18:34:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_15581_servicenow_device_request</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-15 18:33:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e902ff30c38032103b6237cc05013128</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_15581_servicenow_device_request</sys_name><sys_overrides/><sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package><sys_policy/><sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope><sys_update_name>sys_ui_section_e902ff30c38032103b6237cc05013128</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-15 18:33:59</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1982560404</payload_hash>
+        <record_name>Device_Request</record_name>
+        <reverted_from/>
+        <source>554d1ae4c38432103b6237cc050131e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 18:34:00</sys_created_on>
+        <sys_id>3902ff30c38032103b6237cc05013175</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1994ea7c0b00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 18:34:00</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>bd02ff3041803210c7fbbdcc30257474</update_guid>
+        <update_guid_history>bd02ff3041803210c7fbbdcc30257474:1982560404</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-16 17:14:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>13eb1ec1a67c49b38bd72127b7208401</sys_id>
+        <sys_metadata>e902ff30c38032103b6237cc05013128</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+        <sys_parent display_value="Device_Request">03279e20c38432103b6237cc050131d7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+        <sys_scope_delete display_value="">cb5402abc9b946c883bdbf46bc6a1799</sys_scope_delete>
+        <sys_update_name>sys_ui_section_e902ff30c38032103b6237cc05013128</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_e902ff30c38032103b6237cc05013128">3902ff30c38032103b6237cc05013175</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 17:14:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

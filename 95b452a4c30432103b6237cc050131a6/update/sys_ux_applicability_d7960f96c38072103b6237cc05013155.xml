@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_15581_servicenow.Audience for app servicenowapllication</api_name>
+        <description/>
+        <name>Audience for app servicenowapllication</name>
+        <role_names/>
+        <roles>664f5bb4c30032103b6237cc050131c2,d1c5526cc34432103b6237cc05013191,2dc5d22cc38032103b6237cc0501315d,75c516ecc34432103b6237cc050131e8,f1c516ecc34432103b6237cc050131ae</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-20 07:15:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d7960f96c38072103b6237cc05013155</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app servicenowapllication</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+        <sys_update_name>sys_ux_applicability_d7960f96c38072103b6237cc05013155</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-20 07:15:13</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

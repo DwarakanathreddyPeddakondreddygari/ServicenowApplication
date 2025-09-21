@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="ServicenowApllication">64e68b5ac38072103b6237cc05013119</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_15581_servicenow.end_user" name="x_15581_servicenow.end_user">75c516ecc34432103b6237cc050131e8</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-20 07:16:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c5e6cb5ac38072103b6237cc05013125</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>64e68b5ac38072103b6237cc05013119</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+        <sys_update_name>par_dashboard_permission_c5e6cb5ac38072103b6237cc05013125</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-20 07:16:26</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>
