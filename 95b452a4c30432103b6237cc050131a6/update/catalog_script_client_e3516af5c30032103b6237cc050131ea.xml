@@ -8,7 +8,7 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Order AI Devices">747965e9c30872103b6237cc0501315d</cat_item>
-        <cat_variable>IO:1c1f25a1c34872103b6237cc050131b6</cat_variable>
+        <cat_variable>IO:e88a69c0c374b2107de9bb4599013119</cat_variable>
         <condition/>
         <description/>
         <field/>
@@ -26,7 +26,7 @@
 
    function callBack(check){
 	var price=check.u_price_2;
-	g_form.setValue('total_amount',price+parseInt(newValue));
+	g_form.setValue('total_amount',price*parseInt(newValue));
 
    }
 
@@ -39,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e3516af5c30032103b6237cc050131ea</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Amount Calculation</sys_name>
         <sys_overrides/>
         <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
@@ -47,7 +47,7 @@
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
         <sys_update_name>catalog_script_client_e3516af5c30032103b6237cc050131ea</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-18 15:38:56</sys_updated_on>
+        <sys_updated_on>2025-10-20 08:40:42</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>
