@@ -44,15 +44,15 @@
         <mandatory>true</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
-        <mask_use_encryption>true</mask_use_encryption>
-        <name>delivery_address</name>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>delivery_details</name>
         <not_available_conversation>false</not_available_conversation>
         <order>700</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Delivery Address</question_text>
+        <question_text>Delivery Details</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -80,16 +80,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-20 07:36:20</sys_created_on>
-        <sys_id>070be508c374b2107de9bb4599013175</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Delivery Address</sys_name>
-        <sys_package/>
+        <sys_created_on>2025-10-20 13:34:02</sys_created_on>
+        <sys_id>a2dcb684c3fcb2107de9bb45990131cc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Delivery Details</sys_name>
+        <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
-        <sys_update_name>item_option_new_070be508c374b2107de9bb4599013175</sys_update_name>
+        <sys_update_name>item_option_new_a2dcb684c3fcb2107de9bb45990131cc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-20 08:29:49</sys_updated_on>
+        <sys_updated_on>2025-10-20 13:51:31</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -109,22 +109,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=070be508c374b2107de9bb4599013175"/>
-    <fx_price action="delete_multiple" query="id=070be508c374b2107de9bb4599013175"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=a2dcb684c3fcb2107de9bb45990131cc"/>
+    <fx_price action="delete_multiple" query="id=a2dcb684c3fcb2107de9bb45990131cc"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>070be508c374b2107de9bb4599013175</id>
+        <id>a2dcb684c3fcb2107de9bb45990131cc</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-20 07:36:20</sys_created_on>
-        <sys_id>cd2ba908c374b2107de9bb45990131c1</sys_id>
+        <sys_created_on>2025-10-20 13:34:08</sys_created_on>
+        <sys_id>d20d7208c3fcb2107de9bb4599013158</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-20 07:36:20</sys_updated_on>
+        <sys_updated_on>2025-10-20 13:34:08</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -132,16 +132,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>070be508c374b2107de9bb4599013175</id>
+        <id>a2dcb684c3fcb2107de9bb45990131cc</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-20 07:36:20</sys_created_on>
-        <sys_id>412ba908c374b2107de9bb45990131c1</sys_id>
+        <sys_created_on>2025-10-20 13:34:08</sys_created_on>
+        <sys_id>520d7208c3fcb2107de9bb4599013157</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-20 07:36:20</sys_updated_on>
+        <sys_updated_on>2025-10-20 13:34:08</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
