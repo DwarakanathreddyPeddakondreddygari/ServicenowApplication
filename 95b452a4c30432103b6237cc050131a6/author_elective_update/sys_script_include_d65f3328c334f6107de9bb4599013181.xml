@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_15581_servicenow.AI_DeviceUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>AI_DeviceUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AI_DeviceUtils = Class.create();
+AI_DeviceUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    getDescription: function() {
+        var sysId = this.getParameter('sys_id');
+        if (!sysId) return '';
+
+        var gr = new GlideRecord('x_15581_servicenow_ai_devices');
+        if (gr.get(sysId)) {
+            return gr.getValue('short_description'); // IMPORTANT: field in your AI Devices table
+        }
+        return '';
+    }
+
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-22 07:41:48</sys_created_on>
+        <sys_id>d65f3328c334f6107de9bb4599013181</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>AI_DeviceUtils</sys_name>
+        <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+        <sys_update_name>sys_script_include_d65f3328c334f6107de9bb4599013181</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-22 07:51:57</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</application>
+        <file_path/>
+        <instance_id>d9764a731b21f150699443f4bd4bcb2b</instance_id>
+        <instance_name>dev181427</instance_name>
+        <name>sys_script_include_d65f3328c334f6107de9bb4599013181</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_15581_servicenow.AI_DeviceUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;AI_DeviceUtils&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var AI_DeviceUtils = Class.create();
+AI_DeviceUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    getDescription: function() {
+        var sysId = this.getParameter('sys_id');
+        if (!sysId) return '';
+
+        var gr = new GlideRecord('x_15581_servicenow_ai_devices');
+        if (gr.get(sysId)) {
+            return gr.getValue('short_description'); // IMPORTANT: field in your AI Devices table
+        }
+        return '';
+    }
+
+});
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-22 07:41:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d65f3328c334f6107de9bb4599013181&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;AI_DeviceUtils&lt;/sys_name&gt;&lt;sys_package display_value="ServicenowApllication" source="x_15581_servicenow"&gt;95b452a4c30432103b6237cc050131a6&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="ServicenowApllication"&gt;95b452a4c30432103b6237cc050131a6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_d65f3328c334f6107de9bb4599013181&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-22 07:51:57&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-719195346</payload_hash>
+        <record_name>AI_DeviceUtils</record_name>
+        <reverted_from/>
+        <source>3f97d273c32032107de9bb45990131b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-22 07:51:57</sys_created_on>
+        <sys_id>9de1c47cc334f6107de9bb4599013172</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a0ae73b2b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-22 07:51:57</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>d9e1c47c5d34f610116240af2f53a171</update_guid>
+        <update_guid_history>d9e1c47c5d34f610116240af2f53a171:-719195346,0f31803c2f34f610ccffc1f5754b77c7:-1511892315,ac9f73286b34f610ffdacb718d7b4706:-900415899</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-22 08:06:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>2f1dbdb6de694b84920dc4ff79cc9e79</sys_id>
+        <sys_metadata>d65f3328c334f6107de9bb4599013181</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AI_DeviceUtils</sys_name>
+        <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
+        <sys_scope_delete display_value="">cb5402abc9b946c883bdbf46bc6a1799</sys_scope_delete>
+        <sys_update_name>sys_script_include_d65f3328c334f6107de9bb4599013181</sys_update_name>
+        <sys_update_version display_value="sys_script_include_d65f3328c334f6107de9bb4599013181">9de1c47cc334f6107de9bb4599013172</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-22 08:06:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

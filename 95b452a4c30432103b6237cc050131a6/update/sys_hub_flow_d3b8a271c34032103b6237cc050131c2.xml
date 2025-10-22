@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2857149000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2910320000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>order_ai_devices_flow</internal_name>
-        <label_cache>[{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_name.name","label":"3➛requestor_name➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_company","label":"3 - Get Catalog Variables➛requestor_company","reference":"core_company","reference_display":"requestor_company","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.choose_quantity","label":"3 - Get Catalog Variables➛choose_quantity","reference":"","reference_display":"choose_quantity","type":"string","base_type":"string","usedInstances":{},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_name.first_name","label":"3➛requestor_name➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{}},{"name":"Service Catalog_1.request_item.estimated_delivery","label":"Trigger - Service Catalog➛Requested Item Record➛Estimated delivery","reference":"","reference_display":"Estimated delivery","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"estimated_delivery","usedInstances":{"35a7ea79-c068-413e-a4b4-4053d5ae6d04":["u_glide_date_7"]}},{"name":"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"760a3951-2b3c-40f3-b40a-ef8ec81bc3f1":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.choose_your_ai_device","label":"3 - Get Catalog Variables➛choose_your_ai_device","reference":"x_15581_servicenow_ai_devices","reference_display":"choose_your_ai_device","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.choose_your_ai_device.name","label":"3➛choose_your_ai_device➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_15581_servicenow_ai_devices","column_name":"name","usedInstances":{}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.delivery_details","label":"3 - Get Catalog Variables➛delivery_details","reference":"","reference_display":"delivery_details","type":"multi_small","base_type":"multi_small","usedInstances":{"5906711d-8cff-4b99-92da-a55315e1e661":["description"],"6cb71791-b742-4b6f-a496-123c20ff2cb0":["ah_fields"],"6839a32b-1126-4449-9add-62eec439591a":["description","work_notes"]},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.total_amount","label":"3 - Get Catalog Variables➛total_amount","reference":"","reference_display":"total_amount","type":"string","base_type":"string","usedInstances":{"35a7ea79-c068-413e-a4b4-4053d5ae6d04":["total_cost"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b":["record"],"5906711d-8cff-4b99-92da-a55315e1e661":["ah_requested_item"],"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7":["requested_item"],"e610cadb-9019-40d2-9dd0-967f238e56bd":["record"],"6839a32b-1126-4449-9add-62eec439591a":["ah_requested_item"],"6cb71791-b742-4b6f-a496-123c20ff2cb0":["ah_requested_item"],"1db74f8d-8e4e-4d7e-a54e-727c43e78ae3":["ah_requested_item"],"1549c40c-82cc-409e-864a-f2410bfcb30d":["ah_requested_item"]},"attributes":{"default_search_field":"number"}},{"name":"{{static.a7792751c3cc32103b6237cc05013197}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b":["approval_conditions"]}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_name","label":"3 - Get Catalog Variables➛requestor_name","reference":"sys_user","reference_display":"requestor_name","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.business_justification","label":"3 - Get Catalog Variables➛business_justification","reference":"","reference_display":"business_justification","type":"multi_small","base_type":"multi_small","usedInstances":{},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"{{static.8d80f4e4c3f876107de9bb45990131e8}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b":["approval_conditions"]}}]</label_cache>
+        <label_cache>[{"name":"{{static.8d80f4e4c3f876107de9bb45990131e8}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b":["approval_conditions"]}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.business_justification","label":"3 - Get Catalog Variables➛business_justification","reference":"","reference_display":"business_justification","type":"multi_small","base_type":"multi_small","usedInstances":{},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_name","label":"3 - Get Catalog Variables➛requestor_name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"{{static.a7792751c3cc32103b6237cc05013197}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b":["approval_conditions"]}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b":["record"],"5906711d-8cff-4b99-92da-a55315e1e661":["ah_requested_item"],"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7":["requested_item"],"e610cadb-9019-40d2-9dd0-967f238e56bd":["record"],"6839a32b-1126-4449-9add-62eec439591a":["ah_requested_item"],"6cb71791-b742-4b6f-a496-123c20ff2cb0":["ah_requested_item"],"1db74f8d-8e4e-4d7e-a54e-727c43e78ae3":["ah_requested_item"],"1549c40c-82cc-409e-864a-f2410bfcb30d":["ah_requested_item"]},"attributes":{"default_search_field":"number"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.total_amount","label":"3 - Get Catalog Variables➛total_amount","reference":"","reference_display":"total_amount","type":"string","base_type":"string","usedInstances":{"35a7ea79-c068-413e-a4b4-4053d5ae6d04":["total_cost"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.delivery_details","label":"3 - Get Catalog Variables➛delivery_details","reference":"","reference_display":"delivery_details","type":"multi_small","base_type":"multi_small","usedInstances":{"5906711d-8cff-4b99-92da-a55315e1e661":["description"],"6cb71791-b742-4b6f-a496-123c20ff2cb0":["ah_fields"],"6839a32b-1126-4449-9add-62eec439591a":["description","work_notes"]},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.choose_your_ai_device.name","label":"3➛choose_your_ai_device➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_15581_servicenow_ai_devices","column_name":"name","usedInstances":{}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.choose_your_ai_device","label":"3 - Get Catalog Variables➛choose_your_ai_device","reference":"x_15581_servicenow_ai_devices","reference_display":"AI_Devices","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"760a3951-2b3c-40f3-b40a-ef8ec81bc3f1":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.estimated_delivery","label":"Trigger - Service Catalog➛Requested Item Record➛Estimated delivery","reference":"","reference_display":"Estimated delivery","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"estimated_delivery","usedInstances":{"35a7ea79-c068-413e-a4b4-4053d5ae6d04":["u_glide_date_7"]}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_name.first_name","label":"3➛requestor_name➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.choose_quantity","label":"3 - Get Catalog Variables➛choose_quantity","reference":"","reference_display":"choose_quantity","type":"string","base_type":"string","usedInstances":{},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_company","label":"3 - Get Catalog Variables➛requestor_company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_name.name","label":"3➛requestor_name➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.device_description","label":"3 - Get Catalog Variables➛device_description","reference":"","reference_display":"","type":"multi_small","base_type":"multi_small","column_name":"","usedInstances":{"35a7ea79-c068-413e-a4b4-4053d5ae6d04":["short_description"]},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}}]</label_cache>
         <master_snapshot>adfdb6f9c38032103b6237cc050131fe</master_snapshot>
         <master_snapshot_digest/>
         <name>Order AI Devices Flow</name>
@@ -28,7 +28,7 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d3b8a271c34032103b6237cc050131c2</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Order AI Devices Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="ServicenowApllication" source="x_15581_servicenow">95b452a4c30432103b6237cc050131a6</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
         <sys_update_name>sys_hub_flow_d3b8a271c34032103b6237cc050131c2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 17:53:12</sys_updated_on>
+        <sys_updated_on>2025-10-22 08:13:07</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record display_value="Created 2025-10-21 10:53:13">9fe1492cc37c76107de9bb4599013191</version_record>
+        <version_record display_value="Created 2025-10-22 01:13:08">3fb68c38c374f6107de9bb459901316c</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=d3b8a271c34032103b6237cc050131c2"/>
     <sys_variable_value action="delete_multiple" query="document_key=d3b8a271c34032103b6237cc050131c2"/>
@@ -242,14 +242,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-18 16:32:13</sys_created_on>
         <sys_id>32e27a7dc34032103b6237cc050131ad</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 17:53:08</sys_updated_on>
+        <sys_updated_on>2025-10-22 08:13:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -387,10 +387,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-18 16:32:14</sys_created_on>
         <sys_id>0be27a7dc34032103b6237cc050131dd</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 17:53:08</sys_updated_on>
+        <sys_updated_on>2025-10-22 08:13:04</sys_updated_on>
         <ui_id>648bbdaf-5b4c-4701-baa9-f1d91bc6e94b</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+2XTW/bOBCG/4qhs+OlrA/LvgUNskjR3QJJ2kscCBQ5srmgKUei0noF//eOJEpW7EQ1Ui+yLXoxwCFn+M7MQ4q+KyzBrZk1CeIxTKdjEtmEOIQEHiOBA5Ez8ScOZcQaWoquAFemwJKU4/iRyrw0FMUNpI+CweAd1VQmi9AepfCQQ6ZDoWG13eJiLrK1pJvPxgctbCkkT0FZs7v7obWmKYbXkFqzYm9Kb9YQShqBRMeLhOUrUHpwdYExjpXeeF832vdzKffAMTfRQ1EacarUQ4YWfNWgOOBuMZUZDK0VVZzqJN1YM53maEiB8o9KbtoVS6F0neiKfs3EvxjeGZfrYsDMmClCOwxNgZraJFjPj2stElVbNI1kU7hE5iv1d51BWVqIaS51p7R5hvFgXUouRdQK45tl8uW62e9SqCo5o1YmjMp2RLVORZRryMpugISqJiu6Xgu1CNdp8igqZ5SyGi0kDkaxTL7gnplYqBFlpe4RFoiOLtF+UZk/01SUSfyFYdB5WyUfPuTlvnUaRnBY5VwnjKsyloq1PseYj2AUboeG2oj1tp7tOl2H20GbsRAZrfg8pPO6phf44Kqefx2rt+Weg6pRw6P1PnE+1G9ArYahqkMbTu1+To3lGFAD8jagGkU/Ganfg5TYfU3nwa7JuB8qpjKMBcjuFdtMHKLamXkdpJflVk8gPUJv43xudh9cGsEvJWKwrYZ72I5PiC15I3B/3RuW9cIAzq7n/yR5qnrYDZciq1r6IsOdFadi+Qj5jfP7Wv8+yvtp9ZDs/Cb5f0yy6/WiAM/cXixRXJT6sg7P9Z0H2bna/HlXFJmmWrBRwAMSu+AyJw4mvk0mHKZR5HrTKbEdG4Lt9v4Q/B8J9boT0l7Y17mErDklR5SmfUEbv95SmTPSTqbGyZwT91QP6rc7Jr/mS4X1chBPd33nOZaD6u6Luphbtci5NZtbKlEwt4Zzq1wVlkBUZlyB4tqJylYU221tyVNqAtid4c6b001WrczYEjhCVVmfWGrSjf2UfzxvzAaDC9T9x63ofGO+X7X232te+z9bSHNq2kzqyonuF8Y72RfG/X1wOgcHZYqwfUrjBwWvoB8+TeD6joc/k9gh9tgmAfhBwKaEssD3Pdd55hbFzmUYe3eoTgkwllEtGmiPEHf4zWjUvSi7QbjZ6uRPfNv/SbnNxe1ebWrLh/3u/HeAf1LiIYersvv+OPKnJOBnPCbRmRs43hllQM7Atz3wuM8823k1//ffAFViV2FUFAAA</values>
@@ -411,10 +411,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-18 16:32:14</sys_created_on>
         <sys_id>0fe27a7dc34032103b6237cc050131f0</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 17:53:08</sys_updated_on>
+        <sys_updated_on>2025-10-22 08:13:04</sys_updated_on>
         <ui_id>e610cadb-9019-40d2-9dd0-967f238e56bd</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VTW/bMAz9K4LPjmHHSZrkVqwo0MNaoB166TqDluhEgPxRSU7rBfnvo/yRpu3WFUWBYdhyMimRfI98oW62nhTe0pugCKNFNONxFMfjMBzPJ1E6i9NoLGJAjDzfKyBHuqmRl1qQvQFVO8d2e4V6IzmyT2BBlaskCjTe1WhsIi3mux1dFtJUCprrPoY8fC2V0Fh4y5tb36tAU3qL2ltunx3ZpsJEQYqKAk9KXudYWHZ2QjneCn2IvhywP+fiapAt+uyJdE46cnii0PfwwWIhkMploAz6Xg6FAFvqxltaXZNDI4iLQjX7G2tZ2I5pDg9Gfqf8k9Ddy5Co8b4LezPpOzQ0p6SGXlRWlkXnsZCqoXOlqvPivKPgeosZ1Moe9LY2lA8rB9mB6BBmV+vy/nKodyqLll2PVpUc1N4Ca7VMa4vGjQMVtk3JoapksUoqXW5kG0xQ8mClyAgyVd5TTSNXRQDc4Q6oQRCckv+kdV+Dlo7EZ0pDwbuWfHJXu7odjR5w0nJuCSftoOiq4VpW9pgSb7CHufN77abT1wTAF4/zPsj5qF/DE5JrK9WXQr3shIyCnXXn75PtF1eYnXeF3wr6SfAvSPTCfeLrdTv9MN3O/5Bue0R/mXB/J9dw/Oq+Oph0q1BzKFULFr/WYRiL+BtRcOxMZ6+x2W6zdDFL50d8NJ2l8WjC+XwE0RRGizgL55MxHAEeDbu51K1egkxqWtTuc7fzm7LW7PiMCXQL/X0Ju1RsDYaliAUzNedoTFYr1TCnFrB8zUiHTFp2L5VipEHyUG22Qd0wU9IM2Mv/4j/G/p2bBnPqmUXWdc1/s+aGBKcSlTA/EeGwavoCyaYvsH8mP2zfRLOw/f1/LT/wtbz9AcHYtpHrCQAA</values>
@@ -435,13 +435,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-18 16:32:14</sys_created_on>
         <sys_id>4be27a7dc34032103b6237cc050131f1</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 17:53:08</sys_updated_on>
+        <sys_updated_on>2025-10-22 08:13:04</sys_updated_on>
         <ui_id>35a7ea79-c068-413e-a4b4-4053d5ae6d04</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1W30/bMBD+V1CeS5U0/ZH2bRriDZBg4oUO6xJfWk+OHWyn0KH+7zvbKTA2JECTpmn0yT6fv/vu7junV/eJ4MkimXJM5/NsWuVZno/SdFSMs3Kal9mI54BZmQwSBQ2S5wZkh5b2YUGGjhms0aCqkGXLLk1zfn9fl/NpWcyqw8m0zA/HVVUcQjaBw3lep8V4BDPA2bBaa22RbXVnGAjGcSMq3O2unyKO3oRo8IbIOW2YZ/sMKn8nVKWbFtQ2oAnlcIWGjd+T6E0HygkXkawzQq1YEYE4SrEhnvzaaQeSYloXT9JXxoj3oNGdchQA2tZoalEEiTtCB2vFSjWoHFsZ3bV9GsuEC9tK2C6TxTI5ojW4an1wAgpW6L2XyWAZOx48aoqcF6OiyutiNs3SGcd5WY4n83ma5dlsFtzt1jLBX+m/u+ZoKyNaJ7R6U3HLzgqF1rJvnXWiFhV4iFDjlRQcGQeHbLbHvEDjZXbwGaheesWyfaeZcNgMaSEausBZ3xLqFom9L8/lh+Y/NP+/aL5aC8lJRsni6usgacGQvByaZHH/7MhtW2QSSpQ0Gl+woaI6PIizMnj192UPcCxQcvubD44PQ3vXB2CbPoA23LPKBgneOVQcKWAN0uIgaUBRJbTZJgtnOjIYBH6m5PbBY03qJtDE+95Z8Z0iZNM0/Lx3P0fR43GseuVEMymdinsWuhgtDkrZ36m07Bp1GlPxDwnW0Em3f0jI0tGUcGw9cU8l8qwv1vr2fB/vWKiQYs9Z6grkww4cTVXZOaoRdQZl0C5rSP5+1vwMiHCZqDTDoI5hLfUtxfRjMYTK8x5SmWB4TPajYL4EI3wSJwRDl3cheT/Mcp9GT5iFnEPC4f3xrlHTnwh4gw80o5Eo7naD/Z+ODNPJi6LA8aMGnuA//vG4Y9lkUmTMRnWrkJNfsV7dv77bR/H8/OH8nRr3dA5OI53XpvLT5RdS20v8qa2Xd/qn5F38JWH3jP4xZb+g593XH2w34Hw6CwAA</values>
+        <values>H4sIAAAAAAAA/+1Wy27bMBD8lUBnx5AsP2Tfiga5JQHaopc4IVbiymZBkQpJuXED/XuXpJykjwCpUaAoEJ+k5XJ2djlD+fohETxZJXOO6XKZzas8y/NJmk6KaVbO8zKb8BwwK5NRoqBBytyB7NDSe3igQMcM1mhQVciydZemOX94qMvlvCwW1elsXuan06oqTiGbwekyr9NiOoEF4GJcbbW2yPa6MwwE47gTFfb97XPEyR8hGrwjck4b5tn+BJUfCVXppgW1D2hCOdygYdNjGr3rQDnhIpJ1RqgNKyIQRyl2xJPfOu1AUk3r4kr6yhpxHzS6U44KQNsaTUcUQeIboYO1YqMaVI5tjO7aoY11woVtJezXyWqdnNEzuGp7cgEKNuiz18loHU88ZNRUOS8mRZXXxWKepQuOy7KczpbLNMuzxSKk271lgr8yv7/laCsjWie0+qPhlp0VCq1lXzrrRC0q8BBhxhspODIODtnigPkRjZfZyXugeekNyw4nzYTDZkwPoqENnA1H4k/LbrVx7FiCUdfPt/c9+WeY+Oc3G73Z6M1GR9uo2grJSZnJ6vpmlLRgSLEOTbJ6+GnJ7VtkEkqU5LZP2NA5OTyJ9hu9+it4ADgXKLn9zWfRl6F3NxRgu6GANtyzykYJ3jtUHKlgDdLiKGlA0XC12ScrZzoKGAR+peT+MWNLhiHQxOfeW/GNKmTzNPx89mDNmPHk1EGMMUzmofFdhcHFiINSDnsqLbtGXcZW/N2ENXTSHe4minTWj771xD2VyLP+uNVfPxzqnQsVWhw4S12BfHwDR0YtO0czopNBGezAGnKUt6+3lQibiUozDoIb11J/9cdNThtD5XmPaUwwPqf4WQh/BiN8ExcEQ5v70Ly/H+ShjYEwCz2HhsOV5lOjjN4R8A4facYgUez70eGvUYbp7EVR4PRJA8/wn/4e3bNsNisyZqNhVOgpKHkwzK+fgrO4/uFx/UiNezonl5HOa1v5YfMLrR0k/jw2yDv9W/Iu/pGwB0b/mbJf0HN/8x1bSx/R4AsAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4be27a7dc34032103b6237cc050131f1"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -459,10 +459,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-18 17:19:13</sys_created_on>
         <sys_id>53ad32f9c38032103b6237cc0501313b</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 17:53:08</sys_updated_on>
+        <sys_updated_on>2025-10-22 08:13:04</sys_updated_on>
         <ui_id>6839a32b-1126-4449-9add-62eec439591a</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Y32/aSBD+Vyw/3UnEZ2PAkLfcRVHvoY10iRKdSmOt7TFeZfG6u2soRfzvN2uvDQRCUEqqq1re2F/zzTfzjXf249KmiX1uk7TvpYkLge/1PN91B1437gZ+ir8BCYZDu2PnZAp6ZRYqEjEIq/8de0ZYqcdljOPyEUcSKgtGFnc7E3FGWSIgt88/furYBRF4ggJhny+fTKlFASEjETDcf6utWR9qa8eC3bv5GQ+0NRzeGuMi0cDcjg1fFOQJoN2UMAkde0ryhCguFu2IAJJc52w9kNFc4Ym2XvxF0q94/NDV61JAH2Oo59q/oWGsHo4zTmO4LhTleT1SITOTnJXT/EPtiOYaUlIytcu1mbh8LhalRLNQaNc0VgM8vcn4/J8G1xXNKxbMJOMxYe0/opSgUalA6vhRGcpY0KKBWi1CM8BgigbCKSkKmk/CQvAZrQ5FV6bOhOEfJ2V8jmAkneQOibXfDjJMnCscv6yG74ig+uT3eAxuRutM76ncwWGpwyfQw1XFavi51EBrfoyLYU0mLqhxXqCdGRhvVh0jg8A/lFnE3UoiAZ9LkAqSkCqYbkhhubwBMcMgWn+hG4xPQs8xi6ulq9WuSl4tjzZajTqO8GG913hg/V17cMA5oxKxYc6IxDssEh2Y4zTid7c1guFFGA2AfXLZceBbxHN6VbxV9nMkMkwELwrj3EmS3w8OJs5gKz9kxoXSsKsDNdvr/NdFh6g4s0x4rCsurOUyjUaDaBjEZ/1B5J/14nh4Rrw+ORv5qTvsddEEBA4GkGMQFrwUIaFoQOvI0Xb3qeYNLb1OjTcY/nzSSPEIRtuNmk/rcovPw2wbQcrGolFj92SfLK/rut/lq/WjCO+bvy6H0yHeCnlKgSVyQ1VEakiVWxPBy2Jcuq6fLMeNJsb2+XgtiPckJ5OKhLHdGdeHVCtS1IA/7A5jPx0GA88NEhhFUa8/Grme7wVBtVwuZEiTI9evHpBTbUnWkN7B4kgJmo8MF9W1y0mpwC9krcDOPVjvyAxQ2TEgl4n1LwrVutZJbl3kiYXzFwKsey4eMcLWdY6fgEr+txlYLQ3OwxwXhDnHxDCEHQctAYZWBZZZUIQyuVo91Pt3i9CvwPxfAvPKBgOmGCYFVh3QztFibQ64aqS6R71Nc2FshDNjw1Rr/2TVetDfqdbr2/6+om3uptZt05ydsoDXl74frH7TvCiVdLb7wxdqenowTaLuVlbMCVUbFd3brSXVRe7ViYyb/7gyndex6JrN9zW2HbAmgSPOGZB8nbm9k2Vu77tcMgyz+/tiM/lT3EJeyImNp562aMWmjX3S575lF3sEyp363VS07Wb2OS+eb2j7J0vtPR0tojjU0T7x4We4VmO6ZvoxB4iIs5O95EQH82fjObBJi5lBJd8mw29YKTPrzzJ+BNXeMV4G2Wxv8uJuA+UBB5rmUBuNGpsmvQe/OsTqwTLFqoA0rHkLc4CKlDd/vqR5zMoEwin6SAVubzGAah8za583TgcRzkV9RLtE4uUbmW6o1JUl5BXH6M3cbkSCU/N0beW3318tsE//AUWW3kYzGAAA</values>
@@ -483,13 +483,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-18 16:32:14</sys_created_on>
         <sys_id>83e27a7dc34032103b6237cc050131e2</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 17:53:08</sys_updated_on>
+        <sys_updated_on>2025-10-22 08:13:04</sys_updated_on>
         <ui_id>fb96b87c-56b3-4cc8-a15a-93f0842a7ae7</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1V207bQBD9lcjPUeRLEsd5o0VIPLRIUPGCqtVexsmq6wu76wSK+PfO+pYQQ0ClSJXaR8/O5czMOeObB08Kb+nFzGc0ooxHgR9Evh8upgGbRywIRUQhjb2xl9MM0JNTS1WxIhuqJWUKDD5tqKrcWxrM0iSMZxwzRGHgR2weRjHn/gyTYuKltJCRorSyyEkO23FCF4sw4T6P4inDgFhAwth0liQugE0HASEPE5r40+cDpmIQAEIkYbB4ISCkw4DFgs5fhBQkgwBGBUVILwRE6SCAhoKzuYOU8mEA54cBOGAhTano/fX/OX/snPlaKqEh95Y338deSTVy3oL2lg8HT/a+BKIoA4XruFKVWY8+VfwHWEzyVkF14Z8bRY2u9xR1RGyuND4ZV5R1NQstHMxw7MGdhVwAYkipMjD2MpoLagt931s0UHGRq51hLXOLKT3nfGfkT8wfhL7vO9cUsGkOzXP/SVpGNma+LiSHi3qSjcU6tO1joaos/9o05LgMKa2U7biMlspgPigdbIejBZVerYvtZVfwTOZ1h+2jKjhV/Re1VktWWZwPbkoakio0Qb6bG+4X6qF4dQgWBQUZliMZLUuZr0ipi42sSyDibLJS+DFJVbFFaEau8gnlrr0JzpJOztB+Wpu7pX3BNBjsZimA6Cq3MgNSH0Yic2SZ2Uik2NKzunLlZc5VhZ4ZjkJqrNJDBWt2bm40eyBAk61uKvUupcYYvQFisCVu6ybbJ1NUGnfVLeOQ74/1Qslt5UbZrKZdAmn2iA6Ga1naE+x9A+28H8ftT4Md53iw4zEWRrZYIB2hHZS9H0c8jZP5DBI8aIt4cNBmYngCLxzhRyfno1PYIPfMb4u3Z1in3Dd01cV+a9sadRI+x7bMCAXXi3l05fb56iBaUes9MK2kg+OSdpt+m6Kj8KmcjSXm3jwBYggm7plITAP9OdG/3vDfdRM+Su14azRkhW1FRvYH3IkQIeMoqebrnfFNV+Ld+kyPMRnojpYabisweDsOhfnwcIW3BRfZUZwEk9a5dn18HErzD0rx9Qb6f3DFMok3X4wuG3hHmntZbP6HiY0jNW47AM8p6rJDWWvqnxFQgYMkQhdl2Tb3LuZ//wU3PDKE0AwAAA==</values>
+        <values>H4sIAAAAAAAA/+1VyW7bMBD9FUNnw9Bmy/KtCwL00AZIilyKguAysolSS0jKaRrk3zvUZteKHaNtgADtUcNZ3sy8N/ry4EnhrbyE+YxGlPEo8IPI98NlHLBFxIJQRBSyxJt6Bc0BPTm1VJVrsqVaUqbA4NOWqtq9ZcE8S8NkzjFDFAZ+xBZhlHDuzzEpJl5JCzkpKyvLghRwN03pchmm3OdREjMMSASkjMXzNHUBLB4FhDxMaerHTwfEYhQAQqRhsDwSENJxwHJJF0chBekogFFBEdKRgCgbBdBQcLZwkDI+DuB83PQyiv04aSpki8OAZHEYgBsR0lSK3t/8X8wrWwzfSCU0FN7qy9epV1GNqrKgvdXDwZO9r4AoykDh/q5VbTaTtzX/BhaTnCvZPvxdq9nJzZ5mT8jZlcYn44qyvmaphYMZTj34bqEQgBgyqgxMvZwWgtpS3w8WDVRcFmpn2MjCYkrPOX838gfmD0Lf951rBtg0h/Z5+CQdhVsz35SSw2UzydZiHdrusVR1XnxqG3Lkh4zWyvbkR0ttMB9UDrbD0YHKrjfl3VVf8EIWTYfdoyo5VcMXtVZLVlucD25KGpIpNEGxmxvuF5qheE0IFgUFOZYjOa0qWaxJpcutbEog4ny2Vvgxy1R5h9CMXBczyl17M5wlnV2g/X1j7pf2EdNgsJulAKLrwsocSHN6iSyQZWYrkWIrz+ralZcFVzV65jgKqbHKABWs2bm50eyBAE3udFtpcKk0xugtEIMtcds02T2Zsta4q34Zh3x/bBZKbms3ynY13RJIu0d0MFzLyr7B3rfQzftx2v2W2GmOBzseY2FkiwXSE9pB2fs1JXGSLuaQ4gVcJqMLOBfjm3npCD9582HyHrbIPfPb4h0Y1iv3jK762M9dW5Newh+wLTNBwQ1inly7fT47iE7Ueg9MJ+ngtKTdps9TdBT+Kmdjibk3vwAxBBMPTCSmhf6U6J9v+HXdhJdSO94aDXlpO5GR/QH3IkTIOEqq+WZnPOtK/LE+s1NMBrqjpYbbGgzejkNhPjxc423BRfYUJ8Gsc25cHx/H0vyLUny+geEfXLNc4s0Xk6sW3onmjovNfzGxcaTGbQ/gKUVd9SgbTf0zAipxkETosqq65v6I+V9/As7x7lcyDQAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=83e27a7dc34032103b6237cc050131e2"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=d3b8a271c34032103b6237cc050131c2"/>
@@ -512,10 +512,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-18 16:32:14</sys_created_on>
         <sys_id>4fe27a7dc34032103b6237cc050131df</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 17:53:08</sys_updated_on>
+        <sys_updated_on>2025-10-22 08:13:04</sys_updated_on>
         <ui_id>760a3951-2b3c-40f3-b40a-ef8ec81bc3f1</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VTU8bMRD9K8jnJPJ+JSQ3RIWERItUEJcWrcb2bGLh2Nu1F0ij/PeO9wNQC21Vcext/WY88954nnbPXBvqNvhrd+K9Xlu2+nI7YdpGjL73rDLu4cKttTy3PoCVeLXz54qtWF5huoCFklnOszThmZin2UJKXvAkS1TFJszCFilTOqt00M6WHTBh92DaGDjdoLw7OnPN0UldN45gCirtawO7m9/lyI02qsGBbQ0N1Q3YsNX+p1DY1VgaEGio1FVotF3TdR35VxyqZCkTmaXzLOU8Pc4TMc9EkqoMEDLKGy+ejgKOLjrkbWWxH+F+7OQaFWklfMLwMaBVSK0rMB4nbAtWQXDN7glpENSlNc/ARttA5VhMfvT6O9VOiyImVkgaJfbBp2M5DK+H5cZpiZd1JNgjAYQZ7khn2q391OuIY8cKWhPGsRPSeqqHdSQdWQyUqquNe/g8NjzTthM4BI2T9D7jCQKNQbQBfXwYNLilQuUW6pqGU8bH1N1l4rKdrQ0dZnHbqGncxBnISHxGM4LZGeEfOvgGGh1VfKQydLmnKcBrWXZbS+VCQxIO3VjKb20k1AscpJT9NCjBy0bX4YT63OPA+jB535V/se37/Tw/FkJBNS1ELqf5gidTAbCcVolaJkLOcZmLGQxrXlLvgIfD15bzTPUobc8vBnmvsu/hqSUUVZHw4nVP5fPXPPX60N4wUvoHI8Wn/0sfcc7/G+mlkbQve0MM2rrm/+yj27j4fQff741CqT0RuY7Y+fiHiYEdLUB02zP04Jq7KOEZO/wAdRXVcqsGAAA=</values>
@@ -585,7 +585,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>order_ai_devices_flow</internal_name>
-        <label_cache>[{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_name.name","label":"3➛requestor_name➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_company","label":"3 - Get Catalog Variables➛requestor_company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.choose_quantity","label":"3 - Get Catalog Variables➛choose_quantity","reference":"","reference_display":"choose_quantity","type":"string","base_type":"string","usedInstances":{},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_name.first_name","label":"3➛requestor_name➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{}},{"name":"Service Catalog_1.request_item.estimated_delivery","label":"Trigger - Service Catalog➛Requested Item Record➛Estimated delivery","reference":"","reference_display":"Estimated delivery","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"estimated_delivery","usedInstances":{"35a7ea79-c068-413e-a4b4-4053d5ae6d04":["u_glide_date_7"]}},{"name":"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"760a3951-2b3c-40f3-b40a-ef8ec81bc3f1":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.choose_your_ai_device","label":"3 - Get Catalog Variables➛choose_your_ai_device","reference":"x_15581_servicenow_ai_devices","reference_display":"AI_Devices","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.choose_your_ai_device.name","label":"3➛choose_your_ai_device➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_15581_servicenow_ai_devices","column_name":"name","usedInstances":{}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.delivery_details","label":"3 - Get Catalog Variables➛delivery_details","reference":"","reference_display":"delivery_details","type":"multi_small","base_type":"multi_small","usedInstances":{"5906711d-8cff-4b99-92da-a55315e1e661":["description"],"6cb71791-b742-4b6f-a496-123c20ff2cb0":["ah_fields"],"6839a32b-1126-4449-9add-62eec439591a":["description","work_notes"]},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.total_amount","label":"3 - Get Catalog Variables➛total_amount","reference":"","reference_display":"total_amount","type":"string","base_type":"string","usedInstances":{"35a7ea79-c068-413e-a4b4-4053d5ae6d04":["total_cost"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b":["record"],"5906711d-8cff-4b99-92da-a55315e1e661":["ah_requested_item"],"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7":["requested_item"],"e610cadb-9019-40d2-9dd0-967f238e56bd":["record"],"6839a32b-1126-4449-9add-62eec439591a":["ah_requested_item"],"6cb71791-b742-4b6f-a496-123c20ff2cb0":["ah_requested_item"],"1db74f8d-8e4e-4d7e-a54e-727c43e78ae3":["ah_requested_item"],"1549c40c-82cc-409e-864a-f2410bfcb30d":["ah_requested_item"]},"attributes":{"default_search_field":"number"}},{"name":"{{static.a7792751c3cc32103b6237cc05013197}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b":["approval_conditions"]}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_name","label":"3 - Get Catalog Variables➛requestor_name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.business_justification","label":"3 - Get Catalog Variables➛business_justification","reference":"","reference_display":"business_justification","type":"multi_small","base_type":"multi_small","usedInstances":{},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"{{static.8d80f4e4c3f876107de9bb45990131e8}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b":["approval_conditions"]}}]</label_cache>
+        <label_cache>[{"name":"{{static.8d80f4e4c3f876107de9bb45990131e8}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b":["approval_conditions"]}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.business_justification","label":"3 - Get Catalog Variables➛business_justification","reference":"","reference_display":"business_justification","type":"multi_small","base_type":"multi_small","usedInstances":{},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_name","label":"3 - Get Catalog Variables➛requestor_name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"{{static.a7792751c3cc32103b6237cc05013197}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b":["approval_conditions"]}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b":["record"],"5906711d-8cff-4b99-92da-a55315e1e661":["ah_requested_item"],"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7":["requested_item"],"e610cadb-9019-40d2-9dd0-967f238e56bd":["record"],"6839a32b-1126-4449-9add-62eec439591a":["ah_requested_item"],"6cb71791-b742-4b6f-a496-123c20ff2cb0":["ah_requested_item"],"1db74f8d-8e4e-4d7e-a54e-727c43e78ae3":["ah_requested_item"],"1549c40c-82cc-409e-864a-f2410bfcb30d":["ah_requested_item"]},"attributes":{"default_search_field":"number"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.total_amount","label":"3 - Get Catalog Variables➛total_amount","reference":"","reference_display":"total_amount","type":"string","base_type":"string","usedInstances":{"35a7ea79-c068-413e-a4b4-4053d5ae6d04":["total_cost"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.delivery_details","label":"3 - Get Catalog Variables➛delivery_details","reference":"","reference_display":"delivery_details","type":"multi_small","base_type":"multi_small","usedInstances":{"5906711d-8cff-4b99-92da-a55315e1e661":["description"],"6cb71791-b742-4b6f-a496-123c20ff2cb0":["ah_fields"],"6839a32b-1126-4449-9add-62eec439591a":["description","work_notes"]},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.choose_your_ai_device.name","label":"3➛choose_your_ai_device➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_15581_servicenow_ai_devices","column_name":"name","usedInstances":{}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.choose_your_ai_device","label":"3 - Get Catalog Variables➛choose_your_ai_device","reference":"x_15581_servicenow_ai_devices","reference_display":"AI_Devices","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"648bbdaf-5b4c-4701-baa9-f1d91bc6e94b.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"760a3951-2b3c-40f3-b40a-ef8ec81bc3f1":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.estimated_delivery","label":"Trigger - Service Catalog➛Requested Item Record➛Estimated delivery","reference":"","reference_display":"Estimated delivery","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"estimated_delivery","usedInstances":{"35a7ea79-c068-413e-a4b4-4053d5ae6d04":["u_glide_date_7"]}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_name.first_name","label":"3➛requestor_name➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.choose_quantity","label":"3 - Get Catalog Variables➛choose_quantity","reference":"","reference_display":"choose_quantity","type":"string","base_type":"string","usedInstances":{},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_company","label":"3 - Get Catalog Variables➛requestor_company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.requestor_name.name","label":"3➛requestor_name➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{}},{"name":"fb96b87c-56b3-4cc8-a15a-93f0842a7ae7.device_description","label":"3 - Get Catalog Variables➛device_description","reference":"","reference_display":"","type":"multi_small","base_type":"multi_small","column_name":"","usedInstances":{"35a7ea79-c068-413e-a4b4-4053d5ae6d04":["short_description"]},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}}]</label_cache>
         <master>true</master>
         <name>Order AI Devices Flow</name>
         <natlang/>
@@ -602,7 +602,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>adfdb6f9c38032103b6237cc050131fe</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -610,7 +610,7 @@
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 17:53:11</sys_updated_on>
+        <sys_updated_on>2025-10-22 08:13:06</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -786,14 +786,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-18 17:20:28</sys_created_on>
         <sys_id>2dfdf6f9c38032103b6237cc05013101</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 17:53:10</sys_updated_on>
+        <sys_updated_on>2025-10-22 08:13:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -870,14 +870,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-18 17:20:28</sys_created_on>
         <sys_id>35fdf6f9c38032103b6237cc05013116</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 17:53:10</sys_updated_on>
+        <sys_updated_on>2025-10-22 08:13:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -955,13 +955,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-18 17:20:29</sys_created_on>
         <sys_id>79fdf6f9c38032103b6237cc05013124</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-20 13:53:30</sys_updated_on>
+        <sys_updated_on>2025-10-22 08:13:06</sys_updated_on>
         <ui_id>fb96b87c-56b3-4cc8-a15a-93f0842a7ae7</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VW2vbMBT+K8HPIfiSxHHeupbCYFuhGXsZQ+hy3IjJl0pyuq70v+/IlpM0btMW1sHGHn10Puk7l+/z17tAimAZpCxkNKGMJ1EYJWEYL6YRmycsikVCIU+DcVDSAjCTU0tVdUU2VEvKFBg82lDVuLM8muVZnM443pDEUZiweZyknIczvBQvXkoLBalqK6uSlHAzzuhiEWc85Ek6ZQhIBWSMTWdZ5gBsOgDEPM5oFk4fB0zFAABCZHG0eAIQ0yFgsaDzJylF2QDAqKBI6QlAkg8ANBaczR2lnA8BnB8CsMFCmlrR2y//+/y2feZrqYSGMlh+/TYOaqpx5y3oYHl3cPRS0SjKQGHqaaea0Zc91RwRlL2t3ZFRjVmzhn8H64Mf/H0rdzJ61x9VWjiW8TiAHxZKAUgvp8rAOChoKait9O02ooGKi1LtAmtZWrwzcMk/jPyJT0dxGIYuNQesmUN3vP0kfiG7cH6GJaysbrhttE/l60pyrKXtloCcNsqe7se6hIu2+x3Euuo9ulJNUX7qGhRsL+j3HyONQRJQu1odeV9JvlpXN5c9y3NZtm3xh6riVG2/qLVassY6PmiChuQKQ1Du5oA7AW0ngxaCj4KCAp8jBa1rWV6RWlcb2T6BjIvJlcKPSa6qG6Rm5FU5odyVN8EB0Mk5xs/acL8EH/EaBLsBCCC6Ka0sgLRmSmSJm2k2EtdyGWBr3fOy5KrBzAJbITW+sqUK1uzSXGv2SIAmN7p7aZtSa8ToDRCDJXHbFumPTNVoHHA/jEON3GPGrTlV1JjdeHAvyHXjmtsNy4+FdJN1EK5lbU+wGxvwE7gf+18PO66iaKcUpIJLZ4H0knHk9n4/6TTN5jPI0BYX6cAWZ2JopBdON6OT96Mz2LSr+VoLeAH53gI+e/aj3gveI3szQnluXWG0coN8tl7vDjtxPvSGy724N4bouDG40b/MF5L4oSkYS3AdHhA0BC/eriYxXUmPWcfzjfgrnSVfAdV8fS5BuRVph3noN2/lJOhjGorKegGT/Vn1AsdCcCqO4i74Igd6A+3nx+QDdKcFDdcNGHSqQ9Hf3a3QyXDgva5INPHJber9/VD2r5f58zx7ma8aVkj8kYjRZcfiSA2vF3L4ZkLmuCvXPbHH1HrZs2/1+q+IsylYK5w/I88Kp0KEruraF/2bdfXtFy77OrvQDQAA</values>
+        <values>H4sIAAAAAAAA/+1V227bOBD9FUPPhqGbLctvbYIABXY3QFz0pSgIXkYxsdQlJOU0G+TfO5Qo27ESJwGaorvYRw1nyDNz5hx9vQ+kCFZBxkJGE8p4EoVREobxMo3YImFRLBIKRRZMg4qWgJmcWqrqa7KlWlKmwODRlqrWnRXRvMjjbM7xhiSOwoQt4iTjPJzjpXjxSlooSd1YWVekgttpTpfLOOchT7KUYUEmIGcsnee5K2DpqCDmcU7zMH26IBWjAhAij6PlMwUxHRcsl3TxLKQoHxUwKihCeqYgKUYFNBacLRykgo8LOB83vUzSMM26F4rFcUG2OC5ARoQ0jaJ3X/4n5jcjhm+kEhqqYPX12zRoqEZVWdDB6v7o6LWyVJSBwtSzXpeTLwe6PCFZe9e4I6Nas2Et/xusD/7h71u7k8nH4ajWwqGMpwF8t1AJQHgFVQamQUkrQW2t73YRDVRcVmof2MjK4p2BS/5u5D/4dBSHYehSC8CeOfTHu0/iN7gPF+fYwtrqlttW+1S+qSXHXrppCShoq+zZYaxPuOym35dY172vrlVbVn/1Awp2FwyCwUhrEAQ0rlcH3ndSrDf17dWA8kJW3Vj8oao5Vbsvaq2WrLUOD9qsIYXCEFR7HnAnoJtk0JXgo6CgxOdISZtGVtek0fVWdk8g4nJ2rfBjVqj6FqEZeV3NKHftzZAAOrvA+HkXHpbgT7wGix0BAohuKytLIJ1dE1nhZpqtxLVcBTha97ysuGoxs8RRSI2v7KCCNfs0N5oDEKDJre5f2qU0Gmv0FojBlrjtmvRHpm41EjyQcayRB8y4M2eKGrOnB/eC3LRuuD1ZnhbSM+tKuJaN/YDT2IJn4GHqf27stIqivVIQCi6dBTJIxoE7+MFlaZYv5pCjjy6zkY/Oxdh5L51uJh8+Tc5h263mWy3gFeAHC/js0U8GL/iE6M0E5blzhcnaEfliv94d9uJ87A1XB3FvDNFpY3DUv84XkvixKRhLcB0eATQEL96tJjF9S09Zx8uD+Fc6S7EGqvnmQoJyK9KReew37+Uk6GMaytp6AZNDrgaBYyPIioO4D77Kgd5B+8Up+QDda0HDTQsGnepY9Pf3a3QyJHzQFYlmPrlLfXgYy/7tMn8Z5yDzdctKiT8SMbnqUZzo4e1CDt9NyBx35WYA9pRarwb0nV7/K+JsS9YJ59fIs0ZWiNB10/imf7Kuvv0Ay0cYVTIOAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=79fdf6f9c38032103b6237cc05013124"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -979,13 +979,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-18 17:20:29</sys_created_on>
         <sys_id>79fdf6f9c38032103b6237cc05013127</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 17:53:11</sys_updated_on>
+        <sys_updated_on>2025-10-22 08:13:06</sys_updated_on>
         <ui_id>35a7ea79-c068-413e-a4b4-4053d5ae6d04</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1WyW7bMBD9FYNnx5AsL7JvRYKcugBNkUucEJQ4sllQpEpSblzD/94hKTlBmqBJ0EvQ+EQOZ94sfI/y1Z4ITpZkxiFZLNJZmaVZNk6ScT5Ji1lWpGOeMUgLMiSK1YCeWyZbsLgPCzS01EAFBlQJNF21SZLx/b4qFrMin5cn01mRnUzKMj9h6ZSdLLIqySdjNmcwH5UbrS3QnW4NZYJy2IoSDoeb+4jjFyEa+IHFOW2or/YBVPZKqFLXDVO7gCaUgzUYOnlNoz9appxwEck6I9Sa5hGIgxRbrJPfOO2YxJzWxZPkmTliHKt1qxwmYE1jNF5RBIk7RGfWirWqQTm6NrptujZWhAvbSLZbkeWKnOGauXIz+MQUW4P3XpHhKt548Kgwc5aP8zKr8vksTeYcFkUxmS4WSZql83lwtztLBX+m/+GGgy2NaJzQ6kXDLVorFFhLv7fWiUqUzEOEGa+l4EA5c0DnPeYFGE+zwSnDeek1TfubpsJBPcKFqDGA0+5K8LaQ7N14Lt85/875/4Xz5UZIjjQiy6vrIWmYQXo5MGS5f3D03C+IZAVIdD0XILl95JPido3fY014L9hA/MRE+8cu+Ft3OLjsDrXhvqh0SODWgeKA1VRMWhiSmikchDY7snSmRYMBxr8ouTt6bJDcCEq8760VvzB9OkvCz3t3Mooed6rqiBPN1RlO9QLxS9eazhXJj/O2cTwcKtZKd3rfFh2+hJuPIY4Vso/Wsq3V5zgccgToHx+0tKgsDo3v1tcfm6suNvrn177Ic6HCXLpGpS6ZPO6YQyUWrfPl7AnIwHdao2S8Pr1uRAjGUupRYNSokvon5vRSGrHS1z3C2bLROdrPgvmSGeGb+IQwGHwYejWcSpTfXSs4Q/8kyL6xrgUaphBGEF6xEByU8QFTbeFYeDRi0YfDsP/rkkIyfZJ4MLnj2T38u78vtzSdTvOU2qgRFbr0K9pp5M/X/yyefz2ev1Apfy+4V8q3QIrHG+jF8tD28X7s4HM86ESS/CuR5G9JHl0bb14fT6jicP0bpj4GHcYLAAA=</values>
+        <values>H4sIAAAAAAAA/+1WTW/bMAz9K4XOaWDH+XByG1r01G3AOvSyrIJs0YkGWfIkuWsW+L+Pkuw06FqsLXYpUJ8sinwiH/ksf9sTwcmKzDkky2U6L7M0yyZJMsmnaTHPinTCMwZpQUZEsRrQ85bJFiyuwwsaWmqgAgOqBJqu2yTJ+H5fFct5kS/K09m8yE6nZZmfsnTGTpdZleTTCVswWIzLrdYW6E63hjJBOdyKErru5hhx8iJEAz8xOacN9dk+gMpeCVXqumFqF9CEcrABQ6evKfRny5QTLiJZZ4Ta0DwCcZDiFvPkN047JvFM6+JO8swzYhyrdascHsCaxmhsUQSJK0Rn1oqNqkE5ujG6bfoy1oQL20i2W5PVmpzjO3Pl9uQjU2wD3ntNRuvY8eBR4clZPsnLrMoX8zRZcFgWxXS2XCZpli4Wwd3uLBX8mf7dDQdbGtE4odWLyC1aKxRYS3+01olKlMxDBI43UnCgnDmgiwHzCowfs5MzhnzpDU2HTlPhoB7ji6gxgNO+Jb5bdquNo69NMM71cXjXoX56xq/fZfQuo3cZvVpG5VZIjpNJVt++j0jDDE6sA0NW+wdbz73nJCtAouuFAMntIxef2zV+jWViq5GTeBFG+2Uf/LXfPLnuN7XhPql0RODOgeKA2VRMWhiRminkVpsdWTnTosEA45+V3B08tqgXBCXe986K33h8Ok/C4717ZUaPe6H2sxjN1Tk26grxS9ea3hX1hIzaSA+HirXSnR3bosPnQHYMcayQQ7SWba0+RXLIAWD4nqGltb5dja/W5x+Lq662+teXIckLoQIvfaFSl0weVsyhuIvW+XT2BGSQEK1RhV7yXooiBGMq9TgM6biS+pcfEVTnmJU+7zFyy8YXaD8P5mtmhC/iI8JgcDfyAjuTqOj7UpBD/5WRQ2F9CTSwECgIH8YQHIbxAx51C4fEoxGT7rrR8IOVQjJ7cvBgej9nR/j3P1l3NJ3N8pTaKDsVqgx66GX394VyHve/HPZfqJR/Jzwo5WsYiscLGMTy0HZ5HHvyKW70Ikn+l0jytySPvow3r48nVNF9/wPKvQ5ybAwAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=79fdf6f9c38032103b6237cc05013127"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -1056,10 +1056,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-18 17:20:28</sys_created_on>
         <sys_id>31fdf6f9c38032103b6237cc05013122</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="ServicenowApllication">95b452a4c30432103b6237cc050131a6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 17:53:11</sys_updated_on>
+        <sys_updated_on>2025-10-22 08:13:06</sys_updated_on>
         <ui_id>760a3951-2b3c-40f3-b40a-ef8ec81bc3f1</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1V204bMRD9FeTnTeS9JYQ3BEJCokUqiJcWrWZ9SSwce2t7gTTKv3e8lwS19ILKY9/iM/bMOWfnKFti29C0wd/aU+/V0pCTz/cJUSZi+HtLpLZPV3ap2KXxAQwTNxt/yckJKaTI5jDnLC9onqU0r2dZPmeMljTNUy5JQgysBd5k1nAVlDVVByTkEXQbC2crwR6OLqw7Om0aZxHGIle+0bC5+90dtlKaOzGwbcBh3yAcOdn+UFKRqaQg0wVLWZ7N8ozS7LhI61lepxnPQUCODTXUQsdpI9Wjqw75tYawaSLug1NmOZyvhi43I2gdj6xSmhDxHIThAvlI0F4kZA2GQ7Bus0ecAH5t9AFYKROwHYmXn736hgOzsowXpUCJTPTF/bEavOtheQ4BkErLQuuGq2xlFRO+N4cLCa0OZy+x/sJ1E6X2TwLUenxtdbs2H3tHyL7B+KkQaT2SEE1UGqkPOuTNyj59GlleKNO5MhS1ZfhNxxME9K5uQ+SzJUKLNTaq1tA06GgVF0B1j5HLerrUeJjGDcWhcXunwCLxKRoL0wvEzzv4DpyKKj5gG3zc06zBK1Z1m47t0CZBdgnxG3+mwfuDSHS3+tpGir3kQVzV+xOfMKeacIqTH8WgY5e8b3BeZGa7nRXHdc1BTsq6YJNiTtNJDbCYyJQv0prNxKKopzCEpcLZQex2X1pKc96juIQ/xey92r4tmQsoZZnS8vVkFrPXkvm6PW+JY/aHOMZd+Ms0Ukr/x/Gf46h81Ydo0NYNf8c03sf49DP3XjPlkdptxC7Hf7tY2OByxcweoCfrHqKoA7b7Dj4eyXE3BwAA</values>
@@ -1132,11 +1132,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4efdf6f9c38032103b6237cc05013152</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 17:53:11</sys_updated_on>
+        <sys_updated_on>2025-10-22 08:13:07</sys_updated_on>
         <trigger display_value="">46fdf6f9c38032103b6237cc05013152</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d3b8a271c34032103b6237cc050131c2"/>
